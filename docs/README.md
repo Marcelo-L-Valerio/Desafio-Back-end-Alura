@@ -28,11 +28,11 @@
 
 ### - Sem despesas duplicadas no mesmo mês
 
-### - Filtro de receitas/despesa por dia, classificação: /?classificacao=<classificacao>&dia=<dia>
+### - Filtro de receitas/despesa por dia, classificação: /?classificacao=classificacao&dia=dia
 
 ### - Ordenação de dia por crescente/decrescente: /?ordering=(+ ou -)dia
 
-### - Filtro de receitas/despesas por descrição: /?search=<descricao>
+### - Filtro de receitas/despesas por descrição: /?search=descricao
 
 ## Funcionalidades extras para melhor aprendizado:
 
@@ -72,7 +72,7 @@
 ### CRUD/list despesas - http://127.0.0.1:8000/despesas/
 ### CRUD/list receitas - http://127.0.0.1:8000/receitas/
 ###
-### list despesas de um mes - http://127.0.0.1:8000/despesas/<ano>/<mes>/
-### list receitas de um mes - http://127.0.0.1:8000/receitas/<ano>/<mes>/
+### list despesas de um mes - http://127.0.0.1:8000/despesas/ano/mes/
+### list receitas de um mes - http://127.0.0.1:8000/receitas/ano/mes/
 ###
-### list resumo de um mes - http://127.0.0.1:8000/resumo/<ano>/<mes>/
+### list resumo de um mes - http://127.0.0.1:8000/resumo/ano/mes/
